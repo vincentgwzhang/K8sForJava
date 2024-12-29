@@ -9,6 +9,6 @@ entries:
     name: k8sforjava
     type: application
     urls:
-    - https://vincentgwzhang.github.io/K8sForJava/k8sforjava-0.1.0.tgz
+    - https://vincentgwzhang.github.io/K8sForJava/kubernetes/helm-repo/k8sforjava-0.1.0.tgz
     version: 0.1.0
 generated: "2024-12-29T18:23:02.69527622+01:00"
