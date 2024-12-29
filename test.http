@@ -1,0 +1,7 @@
+### local test
+GET http://localhost:8080/hello
+Content-Type: text/plain;charset=UTF-8
+
+### minikube test
+GET http://192.168.49.2:30001/hello
+Content-Type: text/plain;charset=UTF-8

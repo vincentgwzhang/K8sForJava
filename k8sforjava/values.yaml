@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: vincentgwzhang/k8sforjava
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30001
+
+resources: {}

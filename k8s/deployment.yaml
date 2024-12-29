@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8sforjava
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k8sforjava
+  template:
+    metadata:
+      labels:
+        app: k8sforjava
+    spec:
+      containers:
+        - name: k8sforjava
+          image: vincentgwzhang/k8sforjava
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+              name: "http"
